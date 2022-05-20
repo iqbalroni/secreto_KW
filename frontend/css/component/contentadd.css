@@ -1,0 +1,35 @@
+.form-group .form-control {
+    border: none;
+    background-color: #EFEEF5;
+    color: #5F76E1;
+    border-radius: 10px;
+}
+
+.content-add .jumbotron {
+    padding: 25px;
+    background-color: #fff;
+    border: none;
+    border-radius: 15px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.form-group label {
+    color: #5F76E1;
+
+}
+
+.btn-blue {
+    background-color: #5F76E1;
+    border: none;
+    border-radius: 10px;
+    border-bottom: 4px solid #4757a0;
+    margin-top: -5px;
+    color: #fff;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.btn-blue:hover {
+    margin-top: 0;
+    border: none;
+    color: #4757a0;
+}

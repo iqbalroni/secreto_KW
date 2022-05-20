@@ -1,0 +1,163 @@
+.message .jumbotron {
+    padding: 25px;
+    background-color: #fff;
+    border: none;
+    border-radius: 15px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.message h5 {
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    color: #5F76E1;
+}
+
+.message h3 {
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    color: #4A4D50;
+}
+
+.message h4 {
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    color: #C1C4C8;
+}
+
+.pesan .jumbotron {
+    padding: 25px;
+    margin: 0;
+    background-color: #fff;
+    border: none;
+    border-radius: 15px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-bottom: 20px;
+}
+
+.pesan .col-sm-1 {
+    width: 20%;
+}
+
+.pesan .col-sm-11 {
+    width: 80%;
+}
+
+.pesan h6 {
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    color: #5F76E1;
+}
+
+.pesan h5 {
+    padding: 0;
+    margin: 0;
+    font-size: 13px;
+    color: #5F76E1;
+}
+
+.pesan .input-black {
+    box-shadow: none;
+    background-color: #EFEEF5;
+}
+
+.box-search {
+    width: 50%;
+}
+
+.box-search .btn-blue {
+    height: 50px;
+    border-bottom: 3px solid #4757a0;
+}
+
+.search {
+    height: 50px;
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    border-bottom: 3px solid rgb(175, 175, 175);
+    margin-top: -5px;
+    color: #5F76E1;
+}
+
+.box-search .btn-blue:hover {
+    margin-top: -5px;
+    border-bottom: 3px solid #4757a0;
+    color: #4757a0;
+}
+
+.pesan i {
+    padding: 15px;
+    background-color: #5F76E1;
+    border-radius: 50%;
+    font-size: 30px;
+    color: #fff;
+}
+
+.pesan h4 {
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    color: #C1C4C8;
+}
+
+.box-sosmed {
+    margin-top: 10px;
+    display: flex;
+}
+
+.box {
+    margin-right: 20px;
+    background-color: #5F76E1;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border-bottom: 4px solid #4757a0;
+    margin-top: -5px;
+    cursor: pointer;
+}
+
+#wa {
+    background-color: #1ABC9C;
+    border-bottom: 4px solid #19977e;
+}
+
+#fb {
+    background-color: #343FDB;
+    border-bottom: 4px solid #343db4;
+}
+
+
+.box:hover,
+#fb:hover,
+#wa:hover {
+    margin-top: 0;
+    border-bottom: 0;
+}
+
+.box i {
+    color: #fff;
+}
+
+.footer {
+    height: 30px;
+    background-color: #5F76E1;
+    line-height: 30px;
+}
+
+
+@media only screen and (max-width: 700px) {
+    .message .col-sm-3 img {
+        display: none;
+    }
+
+    .box-search {
+        width: 100%;
+    }
+}

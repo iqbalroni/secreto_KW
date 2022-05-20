@@ -1,0 +1,67 @@
+@import url(component/navbar.css);
+@import url(component/contenttop.css);
+@import url(component/contentbottom.css);
+@import url(component/contentadd.css);
+@import url(component/message.css);
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+body {
+    background-color: #EFEEF5;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.container {
+    width: 90%;
+}
+
+.text {
+    padding: 0;
+    margin: 0;
+}
+
+.text h3 {
+    padding: 0;
+    margin: 0;
+    font-weight: 600;
+    color: #4A4D50;
+    font-size: 30px;
+}
+
+.text h5 {
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    color: #4A4D50;
+}
+
+.text h4 {
+    padding: 0;
+    margin: 0;
+    font-weight: 700;
+    font-size: 20px;
+    color: #4A4D50;
+}
+
+.content-center .col-sm-6 {
+    width: 50%;
+}
+
+input:focus{
+    border: none;
+    outline: none;
+}
